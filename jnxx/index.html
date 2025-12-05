@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Menú Desplegable - LUNÉA</title>
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5efe6;
+    margin: 0;
+}
+nav {
+    background: #5d4631;
+    padding: 15px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+nav ul li {
+    position: relative;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: #7a5c42;
+    padding: 10px;
+    border-radius: 8px;
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li ul li {
+    padding: 8px 0;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center; color:#5d4631; margin-top:30px;">Menú Principal – LUNÉA</h1>
+
+<nav>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+
+        <li><a href="#">Recursos</a>
+            <ul>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Lecturas</a></li>
+                <li><a href="#">PDF</a></li>
+            </ul>
+            
+        </li>
+
+
+        <li><a href="#">Actividades</a>
+            <ul>
+                <li><a href="#">Tarea 1</a></li>
+                <li><a href="#">Tarea 2</a></li>
+                <li><a href="#">Ejercicios</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+</body>
+</html>
